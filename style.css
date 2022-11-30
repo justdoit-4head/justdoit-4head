@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{ 
+    /* background-color: yellow; */
+    width: 15vw;
+    height: 100vh;
+}
+nav{
+    padding: 0px;
+    margin: 50px auto;
+}
+.container{
+    display: flex;
+}
+
+.main{
+    /* background-color: red; */
+    background-color: #f6f6f6;
+    width: 85vw;
+}
+
+.infoContainer{
+    /* background-color: grey; */
+    height: 78vh;
+    width: 80vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.infoContainer img{
+    width: 443px;
+    height: 60vh;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{font-size: 55px;}
+.name{font-size: 40px; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+.about{font-size: 30px; margin-bottom: 20px;}
+
+.buttons button{
+    cursor: pointer;
+    border: 1px;
+    border-radius: 20px;
+    width: 110px;
+    height: 27px;
+    padding: 5px;
+    background-color: dodgerblue;
+    color: lightblue;
+}
+.buttons button:hover{
+    background-color: lightblue;
+    color: dodgerblue;
+}
+.sidebar li{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    font-size: 25px;
+    padding: 30px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
